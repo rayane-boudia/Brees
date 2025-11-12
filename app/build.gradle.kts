@@ -48,7 +48,12 @@ dependencies {
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.cardview)
+    implementation(libs.androidx.recyclerview)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    // Smooth Bottom Bar
+    implementation("com.github.ibrahimsn98:SmoothBottomBar:1.7.9")
+    //circleView
+    implementation("de.hdodenhof:circleimageview:3.1.0")
 }
